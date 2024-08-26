@@ -2,8 +2,6 @@ import json, os
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
-os.system("echo 'starting app...'")
-6	***
 
 # Load initial book data from books.json file
 with open('books.json') as f:
